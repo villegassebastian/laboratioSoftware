@@ -20,6 +20,7 @@ public class ParcialLaboratorio1 {
         // TODO code application logic here
         
         int dato1,dato2,dato3;
+        int mayor,menor;
                  
         dato1=Integer.parseInt(JOptionPane.showInputDialog("ingrese el primer valor"));
         dato2=Integer.parseInt(JOptionPane.showInputDialog("ingrese el segundo valor"));
@@ -30,7 +31,17 @@ public class ParcialLaboratorio1 {
         }else{
             JOptionPane.showMessageDialog(null, "los valores ingresados no son iguales");
         }
-        
+         if(dato1 > dato2)
+           if(dato1>dato3)
+              System.out.println("El mayor es: " + dato1);
+           else
+              System.out.println("el mayor es: " + dato3);
+        else if(dato2>dato3)
+              System.out.println("el mayor es: " + dato2);
+                else
+              System.out.println("el mayor es: " + dato3);
     }
-    
 }
+    
+    
+
